@@ -3,16 +3,20 @@
 # How to build
 
 ```terminal
-  $ git clone https://github.com/IraIvanov/Project_H    
-  $ cd Project_H    
+  $ https://github.com/IraIvanov/Differentiator-Reworked   
+  $ cd Differentiator-Reworked
   $ make    
   $ ./program     
   ```
-   After launching program from terminal using ./program you should input coeficents of equation using keyboard, then you get the solutions of that equathion.
+   After launching program from terminal using ./differentiator you should function using keyboard, then you get the .pdf file, with your inputed function and recieved differential.
+   
+  This project uses data containers such stack and binary tree. Libraries to interact with them were written by myself.
+  
+  Also to read function from terminal differentiator uses recursive descent algorithm.
+   
 
-Multiple files :white_check_mark:    
-Documentation :white_check_mark:      
+Multiple files :white_check_mark:         
 Warnings :negative_squared_cross_mark:      
 
 **Have fun!**     
-![Alt-текст](https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2013%2F06%2Fmy-little-pony-equestria-girls-1.jpg&q=60)
+![Alt-текст](https://kidscreen.com/wp/wp-content/uploads/2017/10/Equestria-Girls.jpg)

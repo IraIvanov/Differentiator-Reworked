@@ -98,8 +98,6 @@ int is_op( const char* str ) {
     return 0;
 }
 
-//this function has possible segfaults, be careful, it's demo  
-
 int tree_upload( const char* str, node_t* node ) {
 
 
@@ -148,7 +146,6 @@ int tree_upload( const char* str, node_t* node ) {
         } else if ( str[i] != ')') {
 
             data = leave->data;
-            //printf( " kill me %s\n", str + i );
 
             if ( sscanf( str + i, "%lf", &((data->data).num) ) == 1 ) {
 
@@ -157,7 +154,6 @@ int tree_upload( const char* str, node_t* node ) {
                 data->type = NUM;
                 i = 0;
                 str = end;
-                //printf("%lf", data->data.num);
 
             } else {
 
@@ -184,12 +180,10 @@ int tree_upload( const char* str, node_t* node ) {
 
                     }
                     data->type = OP;
-                    //printf("%c", data->data.op); 
 
                 } else if ( is_var( str[i]) ) {
 
                     data->data.var = str[i];
-                    //printf("%c", data->data.var);
                     data->type = VAR;
                     i += 1;
 

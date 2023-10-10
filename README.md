@@ -8,7 +8,7 @@
   $ make    
   $ ./program     
   ```
-   After launching program from terminal using ./differentiator you should function using keyboard, then you get the .pdf file, with your inputed function and recieved differential.
+   After launching program from terminal using ./differentiator you should input function using keyboard, then you get the .pdf file, with your inputed function and recieved differential.
    
   This project uses data containers such stack and binary tree. Libraries to interact with them were written by myself.
   
